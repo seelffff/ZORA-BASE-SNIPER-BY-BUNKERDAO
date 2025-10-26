@@ -1,0 +1,23 @@
+{
+  "network": {
+    "baseRpcWs": "your rpc infura/alchemy",
+    "baseRpcHttp": "your rpc infura/alchemy"
+  },
+  "zora": {
+    "hookContract": "0xC8d077444625eB300A427a6dfB2b1DBf9b159040",
+    "uniswapV4PoolManager": "0x498581fF718922c3f8e6A244956aF099B2652b2b"
+  },
+  "telegram": {
+    "botToken": "yourbottoken",
+    "chatId": "chatId"
+  },
+  "monitoring": {
+    "blockConfirmationCount": 1,
+    "maxRetryAttempts": 2,
+    "retryDelaySeconds": 5,
+    "minSupply": 999,
+    "minPoolAmount": 400,
+    "maxPoolPercentage": 60,
+    "minTwitterFollowers": 3000
+   }
+}
