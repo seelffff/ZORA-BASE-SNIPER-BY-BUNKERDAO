@@ -1,25 +1,35 @@
 # 🚀 ZORA Token Sniper
 
-<div align="center">
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Base](https://img.shields.io/badge/Base-0052FF?style=for-the-badge&logo=coinbase&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 
-**Мониторинг новых токенов на Zora в реальном времени с автоматической проверкой создателей**
+**Real-time Zora token monitoring with creator verification and Telegram notifications**
 
-[Установка](#установка) • [Конфигурация](#конфигурация) • [Как работает](#как-работает) • [Поддержка](#поддержка)
+## ✨ Features
 
-</div>
+- 🔥 Real-time monitoring of Base blockchain
+- 🎯 Automatic detection of new Zora tokens
+- 👤 Creator verification via Twitter
+- 🤖 Instant Telegram notifications
+- 🔧 Customizable filters (supply, pool %, followers)
 
-## ✨ Особенности
+## 🚀 Quick Start
 
-- 🔥 **Мониторинг в реальном времени** - отслеживание новых блоков в сети Base
-- 🎯 **Обнаружение токенов** - автоматическое обнаружение новых токенов через Zora V4 Coin Hook
-- 👤 **Проверка создателей** - получение информации о создателе через Zora API + Twitter
-- 🤖 **Telegram уведомления** - мгновенные оповещения о новых токенах
-- 🔧 **Гибкая настройка** - фильтрация по supply, pool %, Twitter подписчикам
+```bash
+# Clone & install
+git clone https://github.com/yourusername/zora-token-sniper.git
+cd zora-token-sniper
+npm install
+
+# Configure
+cp config/default.example.json config/default.json
+# Edit config/default.json with your settings
+
+# Start
+npm start
+
+# 🚀 ZORA Token Sniper
 
 ## 🚀 Быстрый старт
 
@@ -42,3 +52,5 @@ npm install
 
 # Настройте конфигурацию
 cp config/default.example.json config/default.json
+
+
